@@ -1,0 +1,603 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*root{
+
+    isolation:#bbd686;
+    position:#c4a381;
+    offset :#644536;
+    bleed:#B2675E;
+    range:#EEF1BD;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:popins;
+
+    align-items: center;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/****  navbar****/
+
+
+.p {
+
+    font-weight: 500;
+    color: #751009;
+
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: end;
+    transition: 0.5s;
+    color :#644536;
+    align-items: center;
+    left: 0%;
+}
+
+.logo {
+
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: none;
+    animation-duration:10s ;
+    animation-name: logo;
+    margin-left: 15px;
+}
+
+.logo span {
+    color:#644536;
+
+
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    background-color:#bbd686;
+    list-style-type: none;
+
+}
+
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: 700;
+
+
+
+
+}
+
+
+.navbar a:hover{
+
+    color: #644536;
+
+}
+
+
+
+
+
+/**** end navbar****/
+
+
+/***a propos***/
+
+
+
+.container-xxl {
+    padding: 5rem 0;
+    color: #C4A381;
+}
+
+.text-success {
+    color: #BBD686 !important;
+}
+
+.display-5 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color:#644536;
+}
+
+.text-arcadia {
+    color: #B2675E !important;
+    font-weight: 900;
+}
+
+.img-border img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.mb-4{
+
+
+    color: #644536;
+}
+
+
+.mb-3{
+
+    color: #644536;
+}
+
+.btn-ligth {
+    background-color: #80e598;
+    border-color: #b8d7c0;
+}
+
+.btn-ligth:hover {
+    background-color: #BBD686;
+    border-color: #ffff;
+}
+
+/**** end a propos***/
+
+
+/***service***/
+
+
+.container-resto{
+    font-weight: 900;
+    background-color:#ffff;
+    color:#B2675E;
+}
+
+.container.h1{
+
+    color:#644536;
+}
+
+.service-container {
+    margin-bottom: 2rem;
+
+}
+
+.service-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.service-container h5 {
+    color:#644536;
+}
+
+.service-container h2 {
+    color:#644536;
+}
+
+.service-container p {
+    color:#644536;
+
+}
+
+.bg-primary {
+    background-color:#bbd686 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/***service****/
+
+
+/****zoo***/
+
+.card-title{
+    color:#644536;
+    font-weight: 800;
+
+
+}
+
+.card-text{
+
+    color: #644536;
+    font-family: popins;
+}
+
+/***** Avis Section ******/
+
+
+.avis {
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.avis img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.avis h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #B2675E;
+}
+.avis p {
+    font-style: italic;
+    color: #644536;
+}
+
+.container-avis{
+
+    background-color: #EEF1BD;
+    color:#644536;
+}
+
+
+/***** end Avis Section  *****/
+
+/*****formulaire avis****/
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+/****end formulaire avis****/
+
+
+
+/****habitat images****/
+
+
+.habitat{
+
+    background-color: #EEF1BD;
+    padding: 50px 0;
+}
+
+
+#maxo{
+
+    color: #644536;
+}
+
+
+
+.habitat h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #644536;
+}
+
+.habitat p {
+    font-size: 1rem;
+    color: #644536;
+    line-height: 1.6;
+}
+
+.navbar-wrapper {
+    margin-top: 20px;
+}
+
+.navbar-wrapper .btn {
+    margin-right: 10px;
+}
+
+.navbar-wrapper .btn-inversed-primary {
+    background-color: #C4A381;
+    color: #644536;
+    border: 1px solid #fff;
+}
+
+.navbar-wrapper .btn-inversed-primary:hover {
+    background-color: #bbd686;
+    color: #fff;
+}
+
+
+
+.post-thumbnail-wrapper {
+    height: 200px;
+    overflow: hidden;
+
+
+}
+
+.post-thumbnail-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.post-details-wrapper h4{
+
+    color:#644536;
+}
+
+
+
+
+
+.habitat, .animal-details, .habitat-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.habitat img, .animal img {
+    width: 100%;
+    padding: 1%;
+
+}
+.habitat, .animal {
+    cursor: pointer;
+}
+.habitat-details, .animal-details {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+.habitat-description {
+    width: 100%;
+}
+
+/**** END habita images****/
+
+/*contact*/
+
+
+.my-md-2{
+
+    color: #644536;
+
+}
+.rounded {
+    border-radius: var(--bs-border-radius);
+}
+.p-4 {
+    padding: 1.5rem;
+}
+.m-4 {
+    margin: 1.5rem;
+}
+
+.address-main {
+    background-color:#C4A381;
+    color:#fff;
+    opacity: 0.9;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #644536 ;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.address-main:hover {
+    transform: scale(1.1);
+}
+
+.contact-form {
+    background-color: #C4A381;
+    color:#fff;
+    opacity: 0.9;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.contact-form:hover {
+    transform: scale(1.1);
+}
+
+.custom-btn {
+    background-color: #000000;
+    opacity: 1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+}
+
+.custom-btn:hover {
+    background-color: #d8eee6;
+}
+
+#exampleModal {
+    background-color: #f6dba6;
+}
+
+.modal-content {
+    background-color: #000000;
+}
+
+.modal-title {
+    color: #FFFFFF;
+}
+
+.p-3 {
+
+    font-weight: 900;
+}
+
+
+/***contact end***/
+
+
+
+/* login form */
+
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #C4A381;
+}
+
+.login-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.login-form .box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form .remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-form .remember input {
+    margin-right: 10px;
+}
+
+.login-form .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background:#fff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-form .btn:hover {
+    background: #EEF1BD;
+}
+
+
+/* end login form */
+
+/* Footer Styles */
+footer {
+    background-color:#C4A381;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer hr {
+    border-color: #6c757d;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+/*****horaire***/
+
+.container {
+    padding: 2rem 0;
+}
+
+h2, h3 {
+    color: #644536;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+
+.wp-block-table {
+    margin: 1.5rem 0;
+}
+
+.wp-block-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wp-block-table th, .wp-block-table td {
+    padding: 0.75rem;
+    border: 1px solid #C4A381;
+    text-align: center;
+}
+
+.is-style-stripes tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.is-style-stripes tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+/***** end horaire***/
+
+
