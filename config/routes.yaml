@@ -5,10 +5,21 @@ app_hello:
 
 app_contact:
     path: /contact
-    controller: App\Controller\ContactController::index
+    controller: App\Controller\ContactController::contact
 
 
 app_service:
     path: /service
-    controller: App\Controller\ServiceController::index
+    controller: App\Controller\ServiceController::service
+
+app_habitat:
+    path: /habitat
+    controller: App\Controller\HabitatController::habitat
+
+
+
+app_connexion:
+    path: /connexion
+    controller: App\Controller\ConnexionController::connexion
+
 

@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class HabitatController extends AbstractController
 {
     #[Route('/habitat', name: 'app_habitat')]
-    public function index(): Response
+    public function habitat(): Response
     {
         return $this->render('habitat/index.html.twig', [
             'controller_name' => 'HabitatController',

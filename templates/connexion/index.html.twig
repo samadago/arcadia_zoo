@@ -1,20 +1,24 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ConnexionController!{% endblock %}
+{% block title %} Connexion{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <!--login form-->
+    <form action=""class="login-form">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+        <h3>login form</h3>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/xampp/htdocs/arcadia_zoo/src/Controller/ConnexionController.php</code></li>
-        <li>Your template at <code>C:/xampp/htdocs/arcadia_zoo/templates/connexion/index.html.twig</code></li>
-    </ul>
-</div>
+        <input type="email"placeholder="Email"class="box">
+        <input type="password"placeholder="Password"class="box">
+
+        <div class="remember">
+            <input type="checkbox"name=""id="remember-me">
+            <label for="remember-me">souviens-toi de moi</label>
+
+        </div>
+        <a href="#" class="btn">login</a>
+    </form>
+
+    <!-- end login form-->
+
 {% endblock %}
